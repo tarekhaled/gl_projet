@@ -43,7 +43,7 @@ public class Node{
         if (!isRigid()){
             position=position.add(velocity.scale(dt));
         }
-    }      
+    }     
     
     public void setRigidity(boolean bool){
         this.rigidity=bool;
